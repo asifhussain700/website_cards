@@ -1,0 +1,229 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+
+
+.container1{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+}
+
+
+
+
+.card1{
+    height: 550px;
+    width: 350px;
+    background-color: rgba(72, 72, 244, 0.6);
+    border-radius: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    gap: 20px;
+}
+
+
+
+.card1 img{
+    height: 60%;
+    border-radius: 20px;
+}
+
+
+
+.card1 h2{
+    font-weight: bold;
+    color:white;
+    font-size: 1.5rem;
+}
+
+.card1 p{
+  color: white;
+}
+
+
+.container2{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FA8BFF;
+    background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+
+}
+
+
+.card2{
+    height: 600px;
+    width: 350px;
+    border-radius: 20px;
+    background-color: rgb(247, 247, 249);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+}
+
+.card2 img{
+    width: 100%;
+    height: 30%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+
+.textbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    gap: 15px;
+    text-align: center;
+
+}
+
+.card2 h2{
+    font-weight: bold;
+    color: black;
+}
+
+.card2 p{
+    font-size:small;
+}
+
+
+.paymentbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: antiquewhite;
+    width: 90%;
+    height: 10%;
+    border-radius: 15px;
+    justify-content: space-between;
+}
+
+
+.paymentdetails{
+    display: flex;
+    align-items: center;
+    gap:0.2rem;
+}
+
+.icon img{
+    height: 50px;
+}
+
+
+a{
+    margin-right: 1rem;
+}
+
+
+
+#payment_button
+{
+    height: 9%;
+    width: 90%;
+    background-color: rgb(20, 20, 108);
+    border-radius: 10px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+} 
+
+
+.cancelbox a{
+    text-decoration: none;
+    color: gray;
+}
+
+
+
+.container3{
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+
+}
+
+
+
+.card3{
+    height: 425px;
+    width: 850px;
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card3 img{
+    width: 45%;
+}
+
+.infobox{
+    height: 100%;
+    width: 55%;
+    background-color: #490952;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:5%;
+    padding-top: 2.5rem;
+    padding-bottom: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    justify-content: space-between;
+}
+
+.hbox h2{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.pbox{
+    width: 95%;
+}
+
+.pbox p{
+    text-align: left;
+    color: white;
+    
+}
+
+.sbox{
+    width: 95%;
+    height: 10%;
+    /* background-color: #2B86C5; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.sbox h2{
+    font-weight: bold;
+    color: white;
+}
+
+.sbox p{
+    color: white;
+}
